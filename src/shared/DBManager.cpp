@@ -1,12 +1,14 @@
+#include "DBManager.h"
+
+#include <cstring>
+#include <exception>
+#include <iomanip>
 #include <iostream>
 #include <string>
-#include <iomanip>
-#include <exception>
 #include "Config.h"
-#include "DBManager.h"
-#include "Salary.h"
 #include "EmployeeController.h"
 #include "LogManager.h"
+#include "Salary.h"
 
 using EmployeeDB::DBManager;
 using EmployeeDB::Model::Salary;

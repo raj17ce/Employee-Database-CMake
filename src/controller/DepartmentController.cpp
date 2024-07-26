@@ -1,6 +1,7 @@
+#include "DepartmentController.h"
+#include <cstring>
 #include <exception>
 #include <iomanip>
-#include "DepartmentController.h"
 #include "DBManager.h"
 
 using EmployeeDB::Controller::DepartmentController;

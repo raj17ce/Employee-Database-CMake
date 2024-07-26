@@ -1,10 +1,11 @@
+#include "ExportController.h"
+#include <algorithm>
+#include <fstream>
 #include <iostream>
 #include <string>
 #include <tuple>
-#include <fstream>
-#include "ExportController.h"
-#include "DBManager.h"
 #include "Config.h"
+#include "DBManager.h"
 
 using EmployeeDB::Controller::ExportController;
 using EmployeeDB::DBManager;
