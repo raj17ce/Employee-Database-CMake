@@ -1,0 +1,683 @@
+27/03/2024 17:53:08 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+27/03/2024 17:53:08 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+27/03/2024 17:53:08 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+27/03/2024 17:53:15 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee NATURAL JOIN Engineer ; 
+27/03/2024 17:53:15 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 29; 
+27/03/2024 17:53:15 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 29; 
+27/03/2024 17:53:15 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee NATURAL JOIN Engineer ; 
+27/03/2024 18:01:39 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+27/03/2024 18:01:39 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+27/03/2024 18:01:39 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+27/03/2024 18:01:43 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+27/03/2024 18:01:43 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+27/03/2024 18:01:43 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+27/03/2024 18:34:20 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+27/03/2024 18:34:20 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+27/03/2024 18:34:20 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+27/03/2024 18:35:55 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+27/03/2024 18:35:55 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+27/03/2024 18:35:55 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+27/03/2024 18:36:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee NATURAL JOIN Engineer ; 
+27/03/2024 18:36:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 29; 
+27/03/2024 18:36:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 29; 
+27/03/2024 18:36:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee NATURAL JOIN Engineer ; 
+27/03/2024 19:14:09 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+27/03/2024 19:14:09 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+27/03/2024 19:14:09 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+27/03/2024 19:14:09 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+27/03/2024 19:14:09 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 28/03/2024 15:06:09 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 15:06:09 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+28/03/2024 15:06:09 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+28/03/2024 15:06:17 : [DefaultLogger] : [Debug] : started executing query :  SELECT departmentID FROM Department WHERE departmentID = 1; 
+28/03/2024 15:06:17 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT departmentID FROM Department WHERE departmentID = 1; 
+28/03/2024 15:06:17 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department WHERE departmentID = "1" COLLATE NOCASE; 
+28/03/2024 15:06:17 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department WHERE departmentID = "1" COLLATE NOCASE; 
+28/03/2024 15:44:35 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 15:44:35 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 15:44:35 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 15:44:35 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 15:45:20 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 15:45:20 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 15:45:20 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 15:45:20 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 15:47:30 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 15:47:30 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 15:47:30 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 15:47:30 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 15:48:52 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 15:48:52 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 15:48:52 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 15:48:52 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 15:49:13 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 15:49:13 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 15:49:13 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 15:49:13 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 15:53:53 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 15:53:53 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 15:53:53 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 15:53:53 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 15:55:19 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 15:55:19 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 15:55:19 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 15:55:19 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 16:00:02 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:00:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 16:00:52 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:00:52 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 16:01:54 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:01:54 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 16:02:40 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:02:40 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 16:03:09 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:03:09 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 16:04:22 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:04:22 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 16:04:22 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 16:04:22 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 16:05:04 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 16:10:20 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 16:10:44 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 16:11:36 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 16:12:39 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 16:37:26 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:37:26 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+28/03/2024 16:37:26 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+28/03/2024 16:37:34 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:37:34 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 16:37:34 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 16:37:34 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 16:39:04 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:39:04 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 16:39:04 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 16:39:04 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 16:41:53 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:41:53 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 16:41:53 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 16:41:53 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 16:54:49 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:54:49 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+28/03/2024 16:54:49 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 16:54:56 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:03:52 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:03:52 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+28/03/2024 17:03:52 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+28/03/2024 17:07:02 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:07:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:07:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:07:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:07:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:07:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:07:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:07:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:07:02 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:07:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:07:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:07:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:07:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:07:02 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:12:59 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:12:59 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:12:59 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:12:59 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:12:59 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:12:59 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:12:59 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:12:59 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:12:59 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:12:59 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:12:59 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:12:59 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:12:59 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:12:59 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:15:18 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:15:18 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:15:18 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:15:18 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:15:18 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:15:18 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:15:18 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:15:18 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:15:18 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:15:18 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:15:18 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:15:18 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:15:18 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:15:18 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:15:35 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:15:35 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:15:35 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:15:35 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:15:35 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:15:35 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:15:35 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:15:35 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:15:35 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:15:35 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:15:35 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:15:35 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:15:35 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:15:35 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:15:51 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:15:51 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:15:51 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:15:51 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:15:51 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:15:51 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:15:51 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:15:51 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:15:51 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:15:51 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:15:51 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:15:51 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:15:51 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:15:51 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:16:02 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:16:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:16:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:16:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:16:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:16:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:16:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:16:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:16:02 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:16:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:16:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:16:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:16:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:16:02 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:16:16 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:16:16 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:16:16 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:16:16 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:16:16 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:16:16 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:16:16 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:16:16 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:16:16 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:16:16 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:16:16 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:16:16 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:16:16 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:16:16 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:16:26 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:16:26 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:16:26 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:16:26 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:16:26 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:16:26 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:16:26 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:16:26 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:16:26 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:16:26 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:16:26 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:16:26 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:16:26 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:16:26 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:16:45 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:16:45 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:16:45 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:16:45 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:16:45 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:16:45 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:16:45 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:16:45 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:16:45 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:16:45 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:16:45 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:16:45 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:16:45 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:16:45 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:17:02 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:17:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:17:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:17:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:17:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:17:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:17:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:17:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:17:02 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:17:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:17:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:17:02 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:17:02 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:17:02 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:17:13 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:17:13 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:17:13 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:17:13 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:17:13 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:17:13 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:17:13 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:17:13 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:17:13 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:17:13 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:17:13 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:17:13 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:17:13 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:17:13 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:17:25 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:17:25 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:17:25 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:17:25 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:17:25 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:17:25 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:17:25 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:17:25 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:17:25 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:17:25 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:17:25 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:17:25 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:17:25 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:17:25 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:18:23 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:18:23 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:18:23 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:18:23 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:18:23 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:18:23 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:18:23 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:18:23 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:18:23 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:18:23 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:18:23 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:18:23 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:18:23 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:18:23 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:18:39 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:18:39 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:18:39 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:18:39 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:18:39 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:18:39 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:18:39 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:18:39 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:18:39 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:18:39 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:18:39 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:18:39 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:18:39 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:18:39 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:18:48 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:18:48 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:18:48 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:18:48 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:18:48 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:18:48 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:18:48 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:18:48 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Financeee; 
+28/03/2024 17:18:48 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM Financeee;  :  no such table: Financeee 
+28/03/2024 17:18:48 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:18:48 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:18:48 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:18:48 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:18:48 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:18:57 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:19:08 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:19:18 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:19:18 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:19:18 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:19:18 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:19:18 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:19:18 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:19:18 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:19:18 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+28/03/2024 17:19:18 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+28/03/2024 17:19:18 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:19:18 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:19:18 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QAsdg; 
+28/03/2024 17:19:18 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM QAsdg;  :  no such table: QAsdg 
+28/03/2024 17:19:18 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:19:30 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:19:30 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:19:30 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:19:30 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:19:30 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:19:30 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:19:30 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:19:30 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+28/03/2024 17:19:30 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+28/03/2024 17:19:30 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HdvR; 
+28/03/2024 17:19:30 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM HdvR;  :  no such table: HdvR 
+28/03/2024 17:19:30 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:19:30 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:19:30 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:19:37 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:19:37 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:19:37 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:19:37 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:19:37 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:19:37 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:19:37 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:19:37 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+28/03/2024 17:19:37 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+28/03/2024 17:19:37 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HdvR; 
+28/03/2024 17:19:37 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM HdvR;  :  no such table: HdvR 
+28/03/2024 17:19:37 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:19:37 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:19:37 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:19:47 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:19:47 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:19:47 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:19:47 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:19:47 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:19:47 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:19:47 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:19:47 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+28/03/2024 17:19:47 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+28/03/2024 17:19:47 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HdvR; 
+28/03/2024 17:19:47 : [DefaultLogger] : [Error] : Error executing query :  SELECT * FROM HdvR;  :  no such table: HdvR 
+28/03/2024 17:19:47 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:19:47 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:19:47 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+28/03/2024 17:19:55 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+28/03/2024 17:22:02 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 17:22:02 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+28/03/2024 17:22:02 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+28/03/2024 18:47:17 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+28/03/2024 18:47:17 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+28/03/2024 18:47:17 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+28/03/2024 18:47:31 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department ; 
+28/03/2024 18:47:31 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department ; 
+29/03/2024 12:53:25 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 12:53:25 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+29/03/2024 12:53:25 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+29/03/2024 14:06:05 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 14:06:05 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+29/03/2024 14:06:05 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+29/03/2024 14:08:32 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 14:08:32 : [DefaultLogger] : [Debug] : started executing query :  CREATE TABLE "Dept" ( ""  , ""  , ""  , ""  , ""  , ""  , ""  , ""  , ""  , ""  , "deptID" INT NOT NULL UNIQUE PRIMARY KEY AUTOINCREMENT, "deptName" Text NOT NULL, "headCount" INT , FOREIGN KEY ("deptID") REFERENCES "Department"("departmentID") ON DELETE CASCADE ); 
+29/03/2024 14:08:32 : [DefaultLogger] : [Error] : Error executing query :  CREATE TABLE "Dept" ( ""  , ""  , ""  , ""  , ""  , ""  , ""  , ""  , ""  , ""  , "deptID" INT NOT NULL UNIQUE PRIMARY KEY AUTOINCREMENT, "deptName" Text NOT NULL, "headCount" INT , FOREIGN KEY ("deptID") REFERENCES "Department"("departmentID") ON DELETE CASCADE );  :  duplicate column name:  
+29/03/2024 14:15:39 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 14:15:39 : [DefaultLogger] : [Debug] : started executing query :  CREATE TABLE "Dept" ( "deptID" int not null unique primary key autoincrement, "deptName" text not null, "headCount" int , FOREIGN KEY ("deptID") REFERENCES "Department"("departmentID") on delete cascade ); 
+29/03/2024 14:15:39 : [DefaultLogger] : [Error] : Error executing query :  CREATE TABLE "Dept" ( "deptID" int not null unique primary key autoincrement, "deptName" text not null, "headCount" int , FOREIGN KEY ("deptID") REFERENCES "Department"("departmentID") on delete cascade );  :  AUTOINCREMENT is only allowed on an INTEGER PRIMARY KEY 
+29/03/2024 14:15:50 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+29/03/2024 14:18:28 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 14:18:28 : [DefaultLogger] : [Debug] : started executing query :  CREATE TABLE "Dept" ( "deptID" INTEGER NOT NULL UNIQUE PRIMARY KEY AUTOINCREMENT, "deptName" TEXT NOT NULL, "headCount" INTEGER , FOREIGN KEY ("deptID") REFERENCES "Department"("departmentID") ON DELETE CASCADE ); 
+29/03/2024 14:18:28 : [DefaultLogger] : [Debug] : Successfully executed query :  CREATE TABLE "Dept" ( "deptID" INTEGER NOT NULL UNIQUE PRIMARY KEY AUTOINCREMENT, "deptName" TEXT NOT NULL, "headCount" INTEGER , FOREIGN KEY ("deptID") REFERENCES "Department"("departmentID") ON DELETE CASCADE ); 
+29/03/2024 14:18:31 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+29/03/2024 14:20:07 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 14:20:07 : [DefaultLogger] : [Debug] : started executing query :  CREATE TABLE "Dept" ( "deptID" INTEGER NOT NULL ); 
+29/03/2024 14:20:07 : [DefaultLogger] : [Debug] : Successfully executed query :  CREATE TABLE "Dept" ( "deptID" INTEGER NOT NULL ); 
+29/03/2024 14:20:09 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+29/03/2024 14:22:48 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 14:22:48 : [DefaultLogger] : [Debug] : started executing query :  DROP TABLE Dept 
+29/03/2024 14:22:48 : [DefaultLogger] : [Debug] : Successfully executed query :  DROP TABLE Dept 
+29/03/2024 14:22:51 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+29/03/2024 14:30:55 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 14:30:55 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+29/03/2024 14:30:55 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+29/03/2024 14:31:02 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+29/03/2024 14:31:04 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 14:31:04 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+29/03/2024 14:31:04 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+29/03/2024 14:31:16 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 14:31:16 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+29/03/2024 14:31:16 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+29/03/2024 14:31:56 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 14:31:56 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+29/03/2024 14:31:56 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+29/03/2024 14:32:24 : [DefaultLogger] : [Debug] : started executing query :  CREATE TABLE "Dept" ( "deptID" INTEGER NOT NULL PRIMARY KEY ); 
+29/03/2024 14:32:24 : [DefaultLogger] : [Debug] : Successfully executed query :  CREATE TABLE "Dept" ( "deptID" INTEGER NOT NULL PRIMARY KEY ); 
+29/03/2024 14:32:41 : [DefaultLogger] : [Debug] : started executing query :  CREATE TABLE "Dept" ( "fzs" zd d ); 
+29/03/2024 14:32:41 : [DefaultLogger] : [Error] : Error executing query :  CREATE TABLE "Dept" ( "fzs" zd d );  :  table "Dept" already exists 
+29/03/2024 14:32:49 : [DefaultLogger] : [Debug] : started executing query :  DROP TABLE Dept 
+29/03/2024 14:32:49 : [DefaultLogger] : [Debug] : Successfully executed query :  DROP TABLE Dept 
+29/03/2024 14:32:53 : [DefaultLogger] : [Debug] : started executing query :  DROP TABLE dept 
+29/03/2024 14:32:53 : [DefaultLogger] : [Error] : Error executing query :  DROP TABLE dept  :  no such table: dept 
+29/03/2024 16:56:54 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 16:56:54 : [DefaultLogger] : [Debug] : started executing query :  SELECT managerID FROM Manager WHERE managerID = 100; 
+29/03/2024 16:56:54 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT managerID FROM Manager WHERE managerID = 100; 
+29/03/2024 16:57:01 : [DefaultLogger] : [Debug] : started executing query :  SELECT managerID FROM Manager WHERE managerID = 0; 
+29/03/2024 16:57:01 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT managerID FROM Manager WHERE managerID = 0; 
+29/03/2024 16:57:13 : [DefaultLogger] : [Debug] : started executing query :  SELECT managerID FROM Manager WHERE managerID = 2; 
+29/03/2024 16:57:13 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT managerID FROM Manager WHERE managerID = 2; 
+29/03/2024 16:57:15 : [DefaultLogger] : [Debug] : started executing query :  SELECT managerID FROM Manager WHERE managerID = 1; 
+29/03/2024 16:57:15 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT managerID FROM Manager WHERE managerID = 1; 
+29/03/2024 16:57:15 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+29/03/2024 17:26:22 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 17:26:22 : [DefaultLogger] : [Debug] : started executing query :  SELECT departmentID FROM Department WHERE departmentName = "Engineer" COLLATE NOCASE; 
+29/03/2024 17:26:22 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT departmentID FROM Department WHERE departmentName = "Engineer" COLLATE NOCASE; 
+29/03/2024 17:26:22 : [DefaultLogger] : [Debug] : started executing query :  SELECT employeeID FROM Employee WHERE employeeID = 10 AND departmentID = 1; 
+29/03/2024 17:26:22 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT employeeID FROM Employee WHERE employeeID = 10 AND departmentID = 1; 
+29/03/2024 17:26:32 : [DefaultLogger] : [Debug] : started executing query :  SELECT departmentID FROM Department WHERE departmentName = "Engineer" COLLATE NOCASE; 
+29/03/2024 17:26:32 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT departmentID FROM Department WHERE departmentName = "Engineer" COLLATE NOCASE; 
+29/03/2024 17:26:32 : [DefaultLogger] : [Debug] : started executing query :  SELECT employeeID FROM Employee WHERE employeeID = 5 AND departmentID = 1; 
+29/03/2024 17:26:32 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT employeeID FROM Employee WHERE employeeID = 5 AND departmentID = 1; 
+29/03/2024 17:26:32 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+29/03/2024 17:26:49 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+29/03/2024 17:26:49 : [DefaultLogger] : [Debug] : started executing query :  SELECT employeeID FROM Employee WHERE employeeID = 50; 
+29/03/2024 17:26:49 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT employeeID FROM Employee WHERE employeeID = 50; 
+29/03/2024 17:26:51 : [DefaultLogger] : [Debug] : started executing query :  SELECT employeeID FROM Employee WHERE employeeID = 25; 
+29/03/2024 17:26:51 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT employeeID FROM Employee WHERE employeeID = 25; 
+29/03/2024 17:26:51 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+01/04/2024 09:13:36 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+01/04/2024 09:13:36 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+01/04/2024 09:13:36 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+01/04/2024 09:13:39 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+01/04/2024 09:13:39 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+01/04/2024 09:13:39 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+01/04/2024 14:10:52 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+01/04/2024 14:10:52 : [DefaultLogger] : [Debug] : started executing query :  DROP DATABASE Employee 
+01/04/2024 14:10:52 : [DefaultLogger] : [Error] : Error executing query :  DROP DATABASE Employee  :  near "DATABASE": syntax error 
+01/04/2024 14:11:51 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+01/04/2024 14:11:51 : [DefaultLogger] : [Debug] : started executing query :  DROP DATABASE Employee 
+01/04/2024 14:11:51 : [DefaultLogger] : [Error] : Error executing query :  DROP DATABASE Employee  :  near "DATABASE": syntax error 
+01/04/2024 14:11:51 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+01/04/2024 14:25:34 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+01/04/2024 14:25:34 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+01/04/2024 14:25:34 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+01/04/2024 14:26:29 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+01/04/2024 14:26:29 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+01/04/2024 14:26:29 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+01/04/2024 15:29:12 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+01/04/2024 15:29:12 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+01/04/2024 15:29:12 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+01/04/2024 15:29:18 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department ; 
+01/04/2024 15:29:18 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department ; 
+01/04/2024 18:31:28 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+01/04/2024 18:31:28 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+01/04/2024 18:31:28 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+01/04/2024 19:24:30 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+01/04/2024 19:24:30 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+01/04/2024 19:24:30 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+01/04/2024 19:26:54 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+01/04/2024 19:26:54 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+01/04/2024 19:26:54 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+01/04/2024 19:27:21 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+01/04/2024 19:27:21 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+01/04/2024 19:27:21 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+01/04/2024 19:27:45 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+01/04/2024 19:27:45 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+01/04/2024 19:27:45 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+01/04/2024 19:30:29 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+01/04/2024 19:30:29 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+01/04/2024 19:30:29 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+02/04/2024 17:28:11 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+02/04/2024 17:28:11 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+02/04/2024 17:28:11 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+02/04/2024 17:49:20 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+02/04/2024 17:49:20 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+02/04/2024 17:49:20 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+03/04/2024 10:12:55 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+03/04/2024 10:12:55 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+03/04/2024 10:12:55 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+03/04/2024 10:15:46 : [DefaultLogger] : [Debug] : started executing query :  INSERT INTO Department (departmentName, baseSalary, allowance, deduction) VALUES ("Marketing", 50000.000000, 5000.000000, 2000.000000); 
+03/04/2024 10:15:46 : [DefaultLogger] : [Debug] : Successfully executed query :  INSERT INTO Department (departmentName, baseSalary, allowance, deduction) VALUES ("Marketing", 50000.000000, 5000.000000, 2000.000000); 
+03/04/2024 10:16:45 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department WHERE departmentName = "Marketing" COLLATE NOCASE; 
+03/04/2024 10:16:45 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department WHERE departmentName = "Marketing" COLLATE NOCASE; 
+03/04/2024 10:17:30 : [DefaultLogger] : [Debug] : started executing query :  SELECT departmentID FROM Department WHERE departmentID = 5; 
+03/04/2024 10:17:30 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT departmentID FROM Department WHERE departmentID = 5; 
+03/04/2024 10:17:30 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department WHERE departmentID = "5" COLLATE NOCASE; 
+03/04/2024 10:17:30 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department WHERE departmentID = "5" COLLATE NOCASE; 
+03/04/2024 10:17:33 : [DefaultLogger] : [Debug] : started executing query :  DELETE FROM Department WHERE departmentID = 5; 
+03/04/2024 10:17:33 : [DefaultLogger] : [Debug] : Successfully executed query :  DELETE FROM Department WHERE departmentID = 5; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Department; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Department; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Engineer; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Engineer; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Finance; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Finance; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM HR; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM HR; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM QA; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM QA; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Manager; 
+03/04/2024 10:18:07 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Manager; 
+03/04/2024 10:18:45 : [DefaultLogger] : [Debug] : Successfully closed DB Connection 
+26/07/2024 11:33:36 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+26/07/2024 11:33:36 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+26/07/2024 11:33:36 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee NATURAL JOIN Engineer ; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 1; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 1; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 2; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 2; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 3; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 3; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 4; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 4; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 5; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 5; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 6; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 6; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 7; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 7; 
+26/07/2024 11:33:49 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee NATURAL JOIN Engineer ; 
+26/07/2024 11:39:24 : [DefaultLogger] : [Debug] : Successfully opened DB Connection 
+26/07/2024 11:39:24 : [DefaultLogger] : [Debug] : started executing query :  PRAGMA foreign_keys = ON; 
+26/07/2024 11:39:24 : [DefaultLogger] : [Debug] : Successfully executed query :  PRAGMA foreign_keys = ON; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM Employee NATURAL JOIN Engineer ; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 1; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 1; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 2; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 2; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 3; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 3; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 4; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 4; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 5; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 5; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 6; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 6; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : started executing query :  SELECT * FROM SalaryView WHERE employeeID = 7; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM SalaryView WHERE employeeID = 7; 
+26/07/2024 11:39:31 : [DefaultLogger] : [Debug] : Successfully executed query :  SELECT * FROM Employee NATURAL JOIN Engineer ; 
