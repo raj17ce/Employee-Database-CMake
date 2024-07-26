@@ -9,7 +9,7 @@ using EmployeeDB::View::ExportView, EmployeeDB::View::Utility;
 using EmployeeDB::Controller::ExportController;
 
 bool ExportView::exportToCSV(const std::string& entity) {
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Export "<< entity << "\x1B[0m" << "-------------------------------------------------\n";
 	std::cout << "\x1B[33m" << "Enter filename for exporting " << entity << "Table(do not add .csv extension)\n" << "\x1B[0m\n";
 	
@@ -23,7 +23,7 @@ bool ExportView::exportToCSV(const std::string& entity) {
 }
 
 bool ExportView::exportAll() {
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Backup Database (Export All) " << "\x1B[0m" << "-------------------------------------------------\n";
 	std::cout << "\x1B[32m" << "Exporting All Tables...\n" << "\x1B[0m\n";
 

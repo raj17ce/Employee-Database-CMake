@@ -9,7 +9,7 @@ using EmployeeDB::Controller::HRController;
 bool HRView::insertHR() {
 	HR obj;
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Insert HR" << "\x1B[0m" << "-------------------------------------------------\n";
 	std::cout << "\x1B[36m" << "Fields with * are required fields" << "\x1B[0m\n";
 	EmployeeView::printEmployeeFields();
@@ -37,7 +37,7 @@ bool HRView::updateHR() {
 
 	EmployeeView::getEmployeeIDInput(obj, "Update", "HR");
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Update HR" << "\x1B[0m" << "-------------------------------------------------\n";
 	HRController::selectHR("Employee.employeeID", std::to_string(obj.getEmployeeID()));
 	if (!Utility::proceedFurther("Update")) {
@@ -45,7 +45,7 @@ bool HRView::updateHR() {
 	}
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "Update HR" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "\x1B[36m" << "Fields with * are required fields" << "\x1B[0m\n";
 		std::cout << "0. Exit" << '\n';
@@ -117,7 +117,7 @@ bool HRView::deleteHR() {
 
 	EmployeeView::getEmployeeIDInput(obj, "Delete", "HR");
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Delete HR" << "\x1B[0m" << "-------------------------------------------------\n";
 	HRController::selectHR("Employee.employeeID", std::to_string(obj.getEmployeeID()));
 	if (!Utility::proceedFurther("Delete")) {
@@ -134,7 +134,7 @@ bool HRView::viewHRConditional() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "View HR" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "0. Exit" << '\n';
 		EmployeeView::printViewEmployeeFields();
@@ -252,7 +252,7 @@ bool HRView::viewHR() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "View HR" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "0. Exit" << '\n';
 		std::cout << "1. View HR based on a field" << '\n';

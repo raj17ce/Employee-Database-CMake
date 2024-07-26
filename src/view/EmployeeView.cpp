@@ -286,7 +286,7 @@ void EmployeeView::getViewEmployeeInput(Employee& obj, int fieldNumber) {
 
 void EmployeeView::getEmployeeIDInput(Employee& obj, const std::string& operation, const std::string& entity) {
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << operation << " " + entity << "\x1B[0m" << "-------------------------------------------------\n";
 	std::cout << "\x1B[33m" << "To " + operation + " " + entity + ", please enter employeeID." << "\x1B[0m\n";
 

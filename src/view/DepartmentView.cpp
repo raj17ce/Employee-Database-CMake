@@ -49,8 +49,8 @@ void DepartmentView::getInsertDepartmentInput(Department& obj) {
 bool DepartmentView::insertDepartment() {
 	Department obj;
 
-	system("cls");
-	std::cout << "------------------------------------------" << "\x1B[36m" << "Insert Department" << "\x1B[0m" << "-------------------------------------------------\n";
+    Utility::clearScreen();
+    std::cout << "------------------------------------------" << "\x1B[36m" << "Insert Department" << "\x1B[0m" << "-------------------------------------------------\n";
 	std::cout << "\x1B[36m" << "Fields with * are required fields" << "\x1B[0m\n";
 	printDepartmentFields();
 
@@ -133,14 +133,14 @@ void DepartmentView::getViewDepartmentInput(Department& obj, int fieldNumber) {
 
 bool DepartmentView::getDepartmentIDInput(Department& obj, const std::string& operation) {
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << operation <<" Department"<< "\x1B[0m" <<"-------------------------------------------------\n";
 	std::cout << "\x1B[33m" << "To "+ operation +" a Department, please enter departmentID." << "\x1B[0m\n";
 
 	auto departmentID = Utility::getUserInputInt("departmentID", Validate::validateDepartmentID).value();
 	obj.setDepartmentID(departmentID);
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << operation << " Department" << "\x1B[0m" << "-------------------------------------------------\n";
 	DepartmentController::selectDepartment("departmentID", std::to_string(departmentID));
 	if (operation == "Delete") {
@@ -159,7 +159,7 @@ bool DepartmentView::updateDepartment() {
 	}
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "Update Department" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "\x1B[36m" << "Fields with * are required fields" << "\x1B[0m\n";
 		std::cout << "0. Exit" << '\n';
@@ -230,7 +230,7 @@ bool DepartmentView::viewDepartmentConditional() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "View Department" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "0. Exit" << '\n';
 		printViewDepartmentFields();
@@ -299,7 +299,7 @@ bool DepartmentView::viewDepartment() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "View Department" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "0. Exit" << '\n';
 		std::cout << "1. View Department based on a field" << '\n';

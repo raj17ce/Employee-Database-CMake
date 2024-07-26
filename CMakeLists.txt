@@ -9,6 +9,12 @@ project(${MY_Project_Name})
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED true)
 
+# Set the base directory for the project
+set(PROJECT_BASE_DIR "${CMAKE_SOURCE_DIR}")
+
+# Add the base directory as a definition to the compiler
+add_definitions(-DPROJECT_BASE_DIR="${PROJECT_BASE_DIR}")
+
 # Add subdirectories
 add_subdirectory(lib/logician)
 add_subdirectory(src/controller)

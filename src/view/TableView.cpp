@@ -55,7 +55,7 @@ void TableView::getForeignKeysInput(Table& obj) {
 bool TableView::createTable() {
 	Table obj;
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Create Table" << "\033[0m" << "-------------------------------------------------\n";
 	std::cout << "\x1B[36m" << "Fields with * are required fields" << "\x1B[0m\n";
 
@@ -74,7 +74,7 @@ bool TableView::createTable() {
 }
 
 bool TableView::deleteTable() {
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Delete Table" << "\033[0m" << "-------------------------------------------------\n";
 	std::cout << "\x1B[33m" << "Enter the name of the Table you want to delete." << "\x1B[0m\n";
 

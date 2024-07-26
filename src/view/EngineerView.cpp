@@ -9,7 +9,7 @@ using EmployeeDB::Controller::EngineerController;
 bool EngineerView::insertEngineer() {
 	Engineer obj;
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Insert Engineer" << "\x1B[0m" << "-------------------------------------------------\n";
 	std::cout << "\x1B[36m" << "Fields with * are required fields" << "\x1B[0m\n";
 	EmployeeView::printEmployeeFields();
@@ -37,7 +37,7 @@ bool EngineerView::updateEngineer() {
 
 	EmployeeView::getEmployeeIDInput(obj, "Update", "Engineer");
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Update Engineer" << "\x1B[0m" << "-------------------------------------------------\n";
 	EngineerController::selectEngineer("Employee.employeeID", std::to_string(obj.getEmployeeID()));
 	if (!Utility::proceedFurther("Update")) {
@@ -45,7 +45,7 @@ bool EngineerView::updateEngineer() {
 	}
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "Update Engineer" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "\x1B[36m" << "Fields with * are required fields" << "\x1B[0m\n";
 		std::cout << "0. Exit" << '\n';
@@ -117,7 +117,7 @@ bool EngineerView::deleteEngineer() {
 
 	EmployeeView::getEmployeeIDInput(obj, "Delete", "Engineer");
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Delete Engineer" << "\x1B[0m" << "-------------------------------------------------\n";
 	EngineerController::selectEngineer("Employee.employeeID", std::to_string(obj.getEmployeeID()));
 	if (!Utility::proceedFurther("Delete")) {
@@ -134,7 +134,7 @@ bool EngineerView::viewEngineerConditional() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "View Engineer" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "0. Exit" << '\n';
 		EmployeeView::printViewEmployeeFields();
@@ -252,7 +252,7 @@ bool EngineerView::viewEngineer() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "View Engineer" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "0. Exit" << '\n';
 		std::cout << "1. View Engineer based on a field" << '\n';

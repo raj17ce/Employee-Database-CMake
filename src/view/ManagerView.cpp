@@ -52,7 +52,7 @@ void ManagerView::getInsertManagerInput(Manager& obj) {
 bool ManagerView::insertManager() {
 	Manager obj;
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Insert Manager" << "\x1B[0m" << "-------------------------------------------------\n";
 	std::cout << "\x1B[36m" << "Fields with * are required fields" << "\x1B[0m\n";
 	printManagerFields();
@@ -147,7 +147,7 @@ void ManagerView::getViewManagerInput(Manager& obj, int fieldNumber) {
 
 bool ManagerView::getManagerIDInput(Manager& obj, const std::string& operation) {
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << operation <<" Manager" << "\x1B[0m" << "-------------------------------------------------\n";
 	std::cout << "\x1B[33m" << "To "+ operation +" a Manager, please enter managerID." << "\x1B[0m\n";
 
@@ -157,7 +157,7 @@ bool ManagerView::getManagerIDInput(Manager& obj, const std::string& operation) 
 		obj.setEmployeeID(managerID);
 	}
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << operation << " Manager" << "\x1B[0m" << "-------------------------------------------------\n";
 	ManagerController::selectManager("employeeID", std::to_string(obj.getEmployeeID()));
 
@@ -176,7 +176,7 @@ bool ManagerView::updateManager() {
 	}
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "Update Manager" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "\x1B[36m" << "Fields with * are required fields" << "\x1B[0m\n";
 		std::cout << "0. Exit" << '\n';
@@ -257,7 +257,7 @@ bool ManagerView::viewManagerConditional() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "View Manager" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "0. Exit" << '\n';
 		EmployeeView::printViewEmployeeFields();
@@ -387,7 +387,7 @@ bool ManagerView::viewManager() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "View Manager" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "0. Exit" << '\n';
 		std::cout << "1. View Manager based on a field" << '\n';

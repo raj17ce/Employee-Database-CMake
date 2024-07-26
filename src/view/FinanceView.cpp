@@ -9,7 +9,7 @@ using EmployeeDB::Controller::FinanceController;
 bool FinanceView::insertFinance() {
 	Finance obj;
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Insert Finance" << "\x1B[0m" << "-------------------------------------------------\n";
 	std::cout << "\x1B[36m" << "Fields with * are required fields" << "\x1B[0m\n";
 	EmployeeView::printEmployeeFields();
@@ -37,7 +37,7 @@ bool FinanceView::updateFinance() {
 
 	EmployeeView::getEmployeeIDInput(obj, "Update", "Finance");
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Update Finance" << "\x1B[0m" << "-------------------------------------------------\n";
 	FinanceController::selectFinance("Employee.employeeID", std::to_string(obj.getEmployeeID()));
 	if (!Utility::proceedFurther("Update")) {
@@ -45,7 +45,7 @@ bool FinanceView::updateFinance() {
 	}
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "Update Finance" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "\x1B[36m" << "Fields with * are required fields" << "\x1B[0m\n";
 		std::cout << "0. Exit" << '\n';
@@ -117,7 +117,7 @@ bool FinanceView::deleteFinance() {
 
 	EmployeeView::getEmployeeIDInput(obj, "Delete", "Finance");
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Delete Finance" << "\x1B[0m" << "-------------------------------------------------\n";
 	FinanceController::selectFinance("Employee.employeeID", std::to_string(obj.getEmployeeID()));
 	if (!Utility::proceedFurther("Delete")) {
@@ -134,7 +134,7 @@ bool FinanceView::viewFinanceConditional() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "View Finance" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "0. Exit" << '\n';
 		EmployeeView::printViewEmployeeFields();
@@ -252,7 +252,7 @@ bool FinanceView::viewFinance() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "View Finance" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "0. Exit" << '\n';
 		std::cout << "1. View Finance based on a field" << '\n';

@@ -42,7 +42,7 @@ void MainView::mainMenuView() {
 }
 
 void MainView::printMainMenu() {
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------"<< "\x1B[36m" <<"Welcome to Employee Database"<< "\x1B[0m" <<"-------------------------------------------------\n";
 	std::cout << "0. Exit\n";
 	std::cout << "1. Table Operations\n";
@@ -83,7 +83,7 @@ void MainView::tableMenuView() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "Table Menu" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "0. Exit\n";
 		std::cout << "1. Create Table\n";
@@ -156,7 +156,7 @@ void MainView::insertMenuView() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "Insert Menu" << "\x1B[0m" << "-------------------------------------------------\n";
 		printTableMenu();
 		std::cout << "\x1B[33m" << "Please select an entity to insert: " << "\x1B[0m\n";
@@ -235,7 +235,7 @@ void MainView::updateMenuView() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "Update Menu" << "\x1B[0m" << "-------------------------------------------------\n";
 		printTableMenu();
 		std::cout << "\x1B[33m" << "Please select an entity to update: " << "\x1B[0m\n";
@@ -314,7 +314,7 @@ void MainView::deleteMenuView() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "Delete Menu" << "\x1B[0m" << "-------------------------------------------------\n";
 		printTableMenu();
 		std::cout << "\x1B[33m" << "Please select an entity to delete:" << "\x1B[0m\n";
@@ -393,7 +393,7 @@ void MainView::viewMenuView() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "View Menu" << "\x1B[0m" << "-------------------------------------------------\n";
 		printTableMenu();
 		std::cout << "\x1B[33m" << "Please select an entity to view:" << "\x1B[0m\n";
@@ -484,7 +484,7 @@ void MainView::exportMenuView() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "Export Menu" << "\x1B[0m" << "-------------------------------------------------\n";
 		printExportTableMenu();
 		std::cout << "\x1B[33m" << "Please select an entity to export:" << "\x1B[0m\n";

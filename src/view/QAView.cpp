@@ -9,7 +9,7 @@ using EmployeeDB::Controller::QAController;
 bool QAView::insertQA() {
 	QA obj;
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Insert QA" << "\x1B[0m" << "-------------------------------------------------\n";
 	std::cout << "\x1B[36m" << "Fields with * are required fields" << "\x1B[0m\n";
 	EmployeeView::printEmployeeFields();
@@ -37,7 +37,7 @@ bool QAView::updateQA() {
 
 	EmployeeView::getEmployeeIDInput(obj, "Update", "QA");
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Update QA" << "\x1B[0m" << "-------------------------------------------------\n";
 	QAController::selectQA("Employee.employeeID", std::to_string(obj.getEmployeeID()));
 	if (!Utility::proceedFurther("Update")) {
@@ -45,7 +45,7 @@ bool QAView::updateQA() {
 	}
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "Update QA" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "\x1B[36m" << "Fields with * are required fields" << "\x1B[0m\n";
 		std::cout << "0. Exit" << '\n';
@@ -117,7 +117,7 @@ bool QAView::deleteQA() {
 
 	EmployeeView::getEmployeeIDInput(obj, "Delete", "QA");
 
-	system("cls");
+	Utility::clearScreen();
 	std::cout << "------------------------------------------" << "\x1B[36m" << "Delete QA" << "\x1B[0m" << "-------------------------------------------------\n";
 	QAController::selectQA("Employee.employeeID", std::to_string(obj.getEmployeeID()));
 	if (!Utility::proceedFurther("Delete")) {
@@ -134,7 +134,7 @@ bool QAView::viewQAConditional() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "View QA" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "0. Exit" << '\n';
 		EmployeeView::printViewEmployeeFields();
@@ -252,7 +252,7 @@ bool QAView::viewQA() {
 	auto isInvalidInput{ false };
 
 	while (true) {
-		system("cls");
+		Utility::clearScreen();
 		std::cout << "------------------------------------------" << "\x1B[36m" << "View QA" << "\x1B[0m" << "-------------------------------------------------\n";
 		std::cout << "0. Exit" << '\n';
 		std::cout << "1. View QA based on a field" << '\n';

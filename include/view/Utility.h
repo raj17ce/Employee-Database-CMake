@@ -18,6 +18,7 @@ namespace EmployeeDB::View {
 		static std::optional<std::string> getUserInputString(const std::string& inputText, std::function<bool(const std::string&)> validator = 0, bool isMandatory = true);
 		static std::optional<std::string> getUserInputGender(const std::string& inputText, std::function<bool(std::string&)> validator = 0, bool isMandatory = true);
 		static std::optional<std::string> getUserInputDate(const std::string& inputText, std::function<bool(const std::string&)> validator = 0, bool isMandatory = true);
+		static void clearScreen();
 	};
 }
 

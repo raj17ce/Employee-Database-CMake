@@ -352,3 +352,11 @@ std::optional<std::string> Utility::getUserInputDate(const std::string& inputTex
 
 	return result;
 }
+
+void Utility::clearScreen() {
+	#ifdef _WIN32
+    	system("cls");
+	#else
+    	system("clear");
+	#endif
+}
